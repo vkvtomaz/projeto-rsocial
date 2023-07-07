@@ -25,6 +25,13 @@ main {
 
 }
 
+.container {
+    max-width: 500px;
+    margin: auto;
+    height: 100%;
+    position: relative;
+}
+
 section#telefone {
     height: 627px;
     width: 311px;
@@ -44,7 +51,11 @@ iframe#tela {
 }
 
 section#redes-sociais {
-    text-align: right;
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translate(0, -50%);
+    
 }
 
 section#redes-sociais img {
